@@ -9,13 +9,9 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": "~5.5",
-        "zendframework/zendframework": "~2.5"
-    },
-    "extra": {
-        "heroku": {
-            "php-config": [
-                "date.timezone=Europe/Rome"
-            ]
-        }
+        "zendframework/zendframework": "~2.5",
+        "php-config": [
+            "date.timezone=Europe/Rome"
+        ]
     }
 }
