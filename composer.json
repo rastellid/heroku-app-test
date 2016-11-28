@@ -8,7 +8,10 @@
     ],
     "homepage": "http://framework.zend.com/",
     "require": {
-        "php": "~5.6",
+        "php": "^5.6.0",
         "zendframework/zendframework": "~2.5"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "^110.0"
     }
 }
